@@ -37,7 +37,7 @@
   margin-right: 20px;
 }
 
-.navMenu_profile h4 {
+.navMenu_profile h4:hover {
   cursor: pointer;
 }
 
