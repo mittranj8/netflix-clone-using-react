@@ -18,15 +18,39 @@
 }
 
 .navMenu_logo {
-  position: fixed;
-  width: 80px;
-  left: 20;
+  width: 90px;
+  margin-left: 20px;
+  margin-right: 20px;
   object-fit: contain;
 }
 
+.navMenu_options {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  cursor: pointer;
+}
+
+.navMenu_profile {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.navMenu_profile h3 {
+  cursor: pointer;
+}
+
+.navMenu_profile,
+.navMenu_profile_av {
+  display: flex;
+  align-items: center;
+}
+
 .navMenu_avatar {
-  position: fixed;
-  right: 20px;
   width: 30px;
   object-fit: contain;
+  margin: 15px;
+  margin-right: 10px;
+  cursor: pointer;
 }
